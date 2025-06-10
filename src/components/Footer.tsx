@@ -34,7 +34,7 @@ const Footer: React.FC = () => {
               <Linkedin className="h-6 w-6" />
             </a>
             <a 
-              href="https://github.com/acquahea" 
+              href="https://github.com/qwekua" 
               className="p-4 bg-gradient-to-br from-gray-700 to-gray-600 rounded-2xl text-gray-300 hover:text-white hover:from-gray-600 hover:to-gray-500 transition-all duration-300 hover:scale-110 shadow-lg"
             >
               <Github className="h-6 w-6" />

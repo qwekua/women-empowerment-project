@@ -22,7 +22,7 @@ const Footer: React.FC = () => {
           
           <div className="flex justify-center space-x-8 mb-12">
             <a 
-              href="mailto:adomanua@gmail.com" 
+              href="adomanua@gmail.com" 
               className="p-4 bg-gradient-to-br from-gray-700 to-gray-600 rounded-2xl text-gray-300 hover:text-white hover:from-purple-600 hover:to-indigo-600 transition-all duration-300 hover:scale-110 shadow-lg"
             >
               <Mail className="h-6 w-6" />

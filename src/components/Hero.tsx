@@ -51,7 +51,7 @@ const Hero: React.FC = () => {
               <div className="w-1 h-16 bg-gradient-to-b from-purple-500 to-teal-500 rounded-full"></div>
               <div className="text-left">
                 <p className="text-lg md:text-xl text-gray-700 leading-relaxed">
-                  I'm <span className="font-bold bg-gradient-to-r from-purple-600 to-indigo-600 bg-clip-text text-transparent">Enoch Acquah Adomanu</span>. 
+                  I'm <span className="font-bold bg-gradient-to-r from-purple-600 to-indigo-600 bg-clip-text text-transparent">Enock Acquah Adomanu</span>. 
                   This is my personal website for <span className="font-semibold text-indigo-700">ENT 110: Introduction to Venture Creation</span>. 
                   It showcases my entrepreneurial journey addressing the Grand Challenge of Women Empowerment 
                   through research, solution design, and prototyping.

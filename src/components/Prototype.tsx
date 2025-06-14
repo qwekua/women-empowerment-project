@@ -60,7 +60,7 @@ const Prototype: React.FC = () => {
           <div className="bg-gradient-to-br from-gray-50 to-indigo-50 rounded-3xl p-12 text-center border-2 border-dashed border-indigo-200 shadow-xl">
            <div className="mb-8">
   <img 
-    src="/images/prototype.png" 
+    src="https://cdn.dribbble.com/userupload/18410292/file/original-c010bba31dd3582ec1a3ddc2201c797b.png?resize=1600x1200&vertical=center" 
     alt="Prototype Preview" 
     className="rounded-2xl mx-auto shadow-lg w-full max-w-md"
   />

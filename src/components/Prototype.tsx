@@ -74,7 +74,7 @@ const Prototype: React.FC = () => {
   {/* Mobile App Image Card */}
   <div className="bg-white rounded-2xl p-6 shadow-lg hover:shadow-xl transition-shadow text-center">
     <img 
-      src="https://cdn.dribbble.com/userupload/18384847/file/original-a1467207b6d2a338f6c0d6c1764fdefa.png?resize=752x564&vertical=center" 
+      src="https://cdn.dribbble.com/userupload/21989258/file/original-8e8d8490bac5eed04222e376a60d2997.png?resize=1600x1200&vertical=center" 
       alt="Mobile App UI" 
       className="rounded-xl mx-auto mb-4 w-full max-w-xs"
     />
@@ -85,7 +85,7 @@ const Prototype: React.FC = () => {
   {/* Web Platform Image Card */}
   <div className="bg-white rounded-2xl p-6 shadow-lg hover:shadow-xl transition-shadow text-center">
     <img 
-      src="https://cdn.dribbble.com/userupload/21989258/file/original-8e8d8490bac5eed04222e376a60d2997.png?resize=1024x768&vertical=center" 
+      src="https://cdn.dribbble.com/userupload/17825486/file/original-c4d9032ab4d0fccab275189c881e50b4.png?resize=752x564&vertical=center" 
       alt="Web Platform Dashboard" 
       className="rounded-xl mx-auto mb-4 w-full max-w-xs"
     />

@@ -70,24 +70,30 @@ const Prototype: React.FC = () => {
   </p>
 </div>
             
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mt-8">
-              <div className="bg-white rounded-2xl p-6 shadow-lg hover:shadow-xl transition-shadow">
-                <div className="w-12 h-12 bg-gradient-to-br from-purple-500 to-indigo-500 rounded-xl flex items-center justify-center mx-auto mb-4">
-                  <Smartphone className="h-6 w-6 text-white" />
-                </div>
-                <div className="font-bold text-gray-900 mb-2">Mobile App</div>
-                <div className="text-sm text-gray-600">User Interface Design</div>
-              </div>
-              <div className="bg-white rounded-2xl p-6 shadow-lg hover:shadow-xl transition-shadow">
-                <div className="w-12 h-12 bg-gradient-to-br from-teal-500 to-cyan-500 rounded-xl flex items-center justify-center mx-auto mb-4">
-                  <Monitor className="h-6 w-6 text-white" />
-                </div>
-                <div className="font-bold text-gray-900 mb-2">Web Platform</div>
-                <div className="text-sm text-gray-600">Admin Dashboard</div>
-              </div>
-            </div>
-          </div>
-        </div>
+           <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mt-8">
+  {/* Mobile App Image Card */}
+  <div className="bg-white rounded-2xl p-6 shadow-lg hover:shadow-xl transition-shadow text-center">
+    <img 
+      src="https://cdn.dribbble.com/userupload/18384847/file/original-a1467207b6d2a338f6c0d6c1764fdefa.png?resize=752x564&vertical=center" 
+      alt="Mobile App UI" 
+      className="rounded-xl mx-auto mb-4 w-full max-w-xs"
+    />
+    <div className="font-bold text-gray-900 mb-2">Mobile App</div>
+    <div className="text-sm text-gray-600">User Interface Preview</div>
+  </div>
+
+  {/* Web Platform Image Card */}
+  <div className="bg-white rounded-2xl p-6 shadow-lg hover:shadow-xl transition-shadow text-center">
+    <img 
+      src="https://cdn.dribbble.com/userupload/21989258/file/original-8e8d8490bac5eed04222e376a60d2997.png?resize=1024x768&vertical=center" 
+      alt="Web Platform Dashboard" 
+      className="rounded-xl mx-auto mb-4 w-full max-w-xs"
+    />
+    <div className="font-bold text-gray-900 mb-2">Web Platform</div>
+    <div className="text-sm text-gray-600">Admin Dashboard Interface</div>
+  </div>
+</div>
+
 
         {/* Design Process */}
         <div className="bg-white rounded-3xl shadow-2xl p-8 md:p-12 border border-gray-100">

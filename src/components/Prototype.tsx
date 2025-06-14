@@ -58,13 +58,17 @@ const Prototype: React.FC = () => {
 
           {/* Prototype Visualization */}
           <div className="bg-gradient-to-br from-gray-50 to-indigo-50 rounded-3xl p-12 text-center border-2 border-dashed border-indigo-200 shadow-xl">
-            <div className="mb-8">
-              <Image className="h-24 w-24 text-indigo-400 mx-auto mb-6" />
-              <h4 className="text-2xl font-bold text-gray-800 mb-3">Initial Diagram</h4>
-              <p className="text-gray-600 text-lg">
-                Placeholder for prototype image - add when site is generated
-              </p>
-            </div>
+           <div className="mb-8">
+  <img 
+    src="/images/prototype.png" 
+    alt="Prototype Preview" 
+    className="rounded-2xl mx-auto shadow-lg w-full max-w-md"
+  />
+  <h4 className="text-2xl font-bold text-gray-800 mt-6 mb-3">Initial Diagram</h4>
+  <p className="text-gray-600 text-lg">
+    Visual representation of the prototype in its current state
+  </p>
+</div>
             
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mt-8">
               <div className="bg-white rounded-2xl p-6 shadow-lg hover:shadow-xl transition-shadow">
